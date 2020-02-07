@@ -64,11 +64,14 @@
 
 </div>
 <div id="s_right">
-    <h3 style="text-align: center;">GUEST BOOK</h3>
-    <textarea rows="23" cols="42" style="box-sizing: content-box;"></textarea>
-    <center>
-        <button type="reset">SUBMIT</button>
-    </center>
+    <form action="write.php" method="post">
+        <textarea cols="40" rows="10" name="content" placeholder="Enter the contents."></textarea>
+        
+        <button class="btn btn-default"><a href="write.php">GUEST BOOK</a></button>
+        <button class="btn btn-default"><a href="list.php">SUBMIT</SUB></a></button>
+    
+    
+    </form>
 </div>
 
 </body>
