@@ -7,9 +7,9 @@
     <title>Introduce Myself</title>
     <link rel="stylesheet" href="index.css">
     <style type="text/css">
-    div#contents{width: 785px;px;height: 870px;background-color: wheat;margin: 5px;float:left;}
-    #s_right{width: 297.4px;height: 475px;background-color: wheat;margin: 5px;float:left;}
-    #header{width: 1100px;float:left;background-color:rgb(255, 172, 19);}
+    div#contents{width: 400px;px;height: 475px;float:left;}
+    #s_right{width: 450px;height: 450px;background-color:rgb(255, 172, 19);float:left;}
+    #header{width: 450px;float:left;background-color:rgb(255, 172, 19);}
     
     </style>
 
@@ -19,12 +19,21 @@
 <div id="header">
     <h1 style="text-align: center;">WELCOME</h1>
 </div>
+
 <div id="contents">
+    <figure>
+        <img src="IMG_4959.jpg" alt="My Image">
+        <figcaption>
+            <span>CHAPTER 1.</span>
+            <span>WHO  IS SHE?</span>
+        </figcaption>
+      </figure>
+
+</div>
+
+<div id="s_right">
     <h2 style="text-align: center;">ABOUT ME</h2>
-    <img src="IMG_4959.jpg" alt="My Image" border="2pxsolid" width="360" height="500">
     <div style="clear: both;"></div> 
-    <pre></pre>
-    <pre></pre>
     <table border="1" bgcolor="white">
         <tr>
             <td class="title">&nbsp;NAME&nbsp;</td>
@@ -62,16 +71,6 @@
     
     </table>
 
-</div>
-<div id="s_right">
-    <form action="write.php" method="post">
-        <textarea cols="40" rows="10" name="content" placeholder="Enter the contents."></textarea>
-        
-        <button class="btn btn-default"><a href="write.php">GUEST BOOK</a></button>
-        <button class="btn btn-default"><a href="list.php">SUBMIT</SUB></a></button>
-    
-    
-    </form>
 </div>
 
 </body>
