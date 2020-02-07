@@ -3,7 +3,7 @@ img{display: block;
     margin-right: auto;}
 table{margin: auto;}
 .title{text-align: center; font-weight: bold; font-family: monospace;}
-h1,h2,h3{font-family: fantasy; font-weight: bold; text-align: center;}
+h1,h2,h3{font-family: monospace; font-weight: bold; text-align: center;}
 .content{font-family: serif;}
 
 
