@@ -34,7 +34,7 @@
     position: absolute;
     height: 7px;
     width: 0px;
-    background:#ffd800;
+    background:rgb(255, 172, 19);
     transition:300ms;
     -webkit-transition:1s;
     -ms-transition:1s;
